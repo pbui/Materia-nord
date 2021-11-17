@@ -3084,10 +3084,10 @@ placessidebar.sidebar row:selected {
   background-color: rgba(136, 192, 208, 0.75);
 }
 placessidebar.sidebar row:selected:drop(active), placessidebar.sidebar row:selected:hover {
-  background-color: rgba(136, 192, 208, 0.1552);
+  background-color: rgba(136, 192, 208, 0.5);
 }
 placessidebar.sidebar row:selected:focus {
-  background-color: rgba(136, 192, 208, 0.1904);
+  background-color: rgba(136, 192, 208, 0.5);
 }
 placessidebar.sidebar row:selected:active {
   background-image: radial-gradient(circle, rgba(136, 192, 208, 0.12) 10%, transparent 0%);
