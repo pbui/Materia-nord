@@ -58,7 +58,7 @@ radio:active, row.activatable:active {
  * Base States
  */
 .background {
-  background-color: #ECEFF4;
+  background-color: #E5E9F0;
   color: #2E3440;
 }
 
@@ -2700,7 +2700,7 @@ frame > border,
   border-radius: 0;
   box-shadow: none;
   background-clip: padding-box;
-  background-color: #E5E9F0;
+  background-color: #ECEFF4;
 }
 frame > border.flat,
 .frame.flat {
@@ -2722,7 +2722,7 @@ actionbar > revealer > box .linked:not(.vertical) > entry:not(:only-child) {
 }
 
 scrolledwindow.view {
-  background-color: #D8DEE9;
+  background-color: #ECEFF4;
 }
 
 scrolledwindow viewport.frame {
@@ -3017,7 +3017,7 @@ stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:no
 
 paned .sidebar, paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .sidebar:dir(rtl), paned .sidebar:dir(ltr) {
   border-style: none;
-  background-color: #D8DEE9;
+  background-color: #ECEFF4;
 }
 
 stacksidebar.sidebar list {
@@ -3592,6 +3592,12 @@ window.csd.unified:not(.solid-csd):not(.maximized):not(.fullscreen):not(.tiled):
 /**
  * Nautilus
  */
+.nautilus-window,
+.nautilus-window notebook,
+.nautilus-window notebook > stack {
+  background-color: #fff;
+}
+
 .nautilus-canvas-item.dim-label,
 .nautilus-list-dim-label {
   color: rgba(46, 52, 64, 0.7);
@@ -3860,7 +3866,7 @@ frame.gedit-map-frame > border:dir(rtl) {
  * Tweaks
  */
 .tweak-categories {
-  background-image: image(#D8DEE9);
+  background-image: image(#ECEFF4);
 }
 .tweak {
   padding: 3px;
