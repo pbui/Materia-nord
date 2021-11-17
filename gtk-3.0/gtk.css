@@ -1560,8 +1560,7 @@ headerbar .entry-tag, headerbar .documents-entry-tag, headerbar .photos-entry-ta
 }
 .caja-pathbar button:checked,
 .path-bar.linked:not(.vertical) > button:checked {
-  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #88C0D0 100%, transparent 0%) 0 0 2/0 0 2px;
-  color: #88C0D0;
+  border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #88C0D0 100%, transparent 0%) 0 0 2/0 0 3px;
   box-shadow: none;
   background-color: transparent;
 }
