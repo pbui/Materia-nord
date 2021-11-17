@@ -979,7 +979,7 @@ StScrollBar StButton#hhandle:active {
   background-color: rgba(46, 52, 64, 0.12);
 }
 .message .message-body {
-  color: rgba(46, 52, 64, 0.7);
+  color: rgba(46, 52, 64, 1.0);
 }
 
 .url-highlighter {
@@ -1446,7 +1446,7 @@ StScrollBar StButton#hhandle:active {
   border-radius: 4px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.5);
   background-color: #ECEFF4;
-  color: #2E3440;
+  color: #3B4252;
   text-align: center;
   font-weight: bold;
   spacing: 12px;
@@ -1687,8 +1687,8 @@ StScrollBar StButton#hhandle:active {
   icon-shadow: none;
 }
 #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
-  box-shadow: inset 0 -2px #ECEFF4;
-  background-color: rgba(27, 34, 50, 0.01);
+  box-shadow: inset 0 -3px #88C0D0;
+  background-color: rgba(59, 66, 82, 0.25);
   color: #ECEFF4;
 }
 #panel .panel-button:active.clock-display, #panel .panel-button:overview.clock-display, #panel .panel-button:focus.clock-display, #panel .panel-button:checked.clock-display {
@@ -1696,8 +1696,8 @@ StScrollBar StButton#hhandle:active {
   background-color: transparent;
 }
 #panel .panel-button:active.clock-display .clock, #panel .panel-button:overview.clock-display .clock, #panel .panel-button:focus.clock-display .clock, #panel .panel-button:checked.clock-display .clock {
-  box-shadow: inset 0 -2px #ECEFF4;
-  background-color: rgba(27, 34, 50, 0.01);
+  box-shadow: inset 0 -3px #88C0D0;
+  background-color: rgba(59, 66, 82, 0.25);
 }
 #panel .panel-button:active > .system-status-icon, #panel .panel-button:overview > .system-status-icon, #panel .panel-button:focus > .system-status-icon, #panel .panel-button:checked > .system-status-icon {
   icon-shadow: none;
