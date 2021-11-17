@@ -1526,7 +1526,7 @@ StScrollBar StButton#hhandle:active {
   color: inherit;
 }
 .switcher-list .item-box:selected {
-  background-color: rgba(136, 192, 208, 0.32);
+  background-color: rgba(136, 192, 208, 0.75);
   color: inherit;
 }
 .switcher-list .thumbnail-box {
