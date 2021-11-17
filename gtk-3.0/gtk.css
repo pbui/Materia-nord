@@ -539,7 +539,6 @@ button:disabled {
   color: rgba(46, 52, 64, 0.5);
 }
 button:checked {
-  color: #88C0D0;
   box-shadow: 0 3px 2px -3px rgba(0, 0, 0, 0.3), 0 2px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background-color: #e0e9f0;
 }
