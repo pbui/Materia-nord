@@ -2701,7 +2701,7 @@ frame > border,
   border-radius: 0;
   box-shadow: none;
   background-clip: padding-box;
-  background-color: #ECEFF4;
+  background-color: #E5E9F0;
 }
 frame > border.flat,
 .frame.flat {
@@ -2720,6 +2720,10 @@ actionbar > revealer > box {
 }
 actionbar > revealer > box .linked:not(.vertical) > entry:not(:only-child) {
   border-radius: 4px 4px 0 0;
+}
+
+scrolledwindow.view {
+  background-color: #D8DEE9;
 }
 
 scrolledwindow viewport.frame {
