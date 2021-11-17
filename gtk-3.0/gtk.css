@@ -3015,6 +3015,7 @@ stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:no
 
 paned .sidebar, paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .sidebar:dir(rtl), paned .sidebar:dir(ltr) {
   border-style: none;
+  background-color: #D8DEE9;
 }
 
 stacksidebar.sidebar list {
