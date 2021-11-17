@@ -2954,17 +2954,17 @@ messagedialog .dialog-action-box button:not(:last-child) {
   margin-right: 6px;
 }
 messagedialog .dialog-action-box button:not(:disabled) {
-  color: #88C0D0;
+  color: rgba(46, 52, 64, 0.7);
   box-shadow: none;
   background-color: transparent;
 }
 messagedialog .dialog-action-box button:not(:disabled):drop(active), messagedialog .dialog-action-box button:not(:disabled):hover {
   box-shadow: none;
-  background-color: rgba(136, 192, 208, 0.08);
+  background-color: rgba(136, 192, 208, 0.25);
 }
 messagedialog .dialog-action-box button:not(:disabled):focus {
   box-shadow: none;
-  background-color: rgba(136, 192, 208, 0.08);
+  background-color: rgba(136, 192, 208, 0.5);
 }
 messagedialog .dialog-action-box button:not(:disabled):active {
   box-shadow: none;
