@@ -2812,13 +2812,13 @@ row.activatable.has-open-popup {
   background-color: rgba(46, 52, 64, 0.12);
 }
 row:selected {
-  background-color: rgba(136, 192, 208, 0.32);
+  background-color: rgba(136, 192, 208, 0.75);
 }
 row:selected:drop(active), row:selected:hover {
-  background-color: rgba(136, 192, 208, 0.3472);
+  background-color: rgba(136, 192, 208, 0.5);
 }
 row:selected:focus {
-  background-color: rgba(136, 192, 208, 0.3744);
+  background-color: rgba(136, 192, 208, 0.5);
 }
 row:selected:active {
   background-image: radial-gradient(circle, rgba(136, 192, 208, 0.12) 10%, transparent 0%);
