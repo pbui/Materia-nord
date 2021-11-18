@@ -3597,6 +3597,10 @@ window.csd.unified:not(.solid-csd):not(.maximized):not(.fullscreen):not(.tiled):
   background-color: #fff;
 }
 
+.nautilus-window .view:not(:selected) {
+  background-color: rgba(136, 192, 208, 0.32);
+}
+
 .nautilus-canvas-item.dim-label,
 .nautilus-list-dim-label {
   color: rgba(46, 52, 64, 0.7);
