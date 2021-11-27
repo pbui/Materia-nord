@@ -1991,11 +1991,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-well-app-running-dot {
-  height: 2px;
+  height: 3px;
   width: 32px;
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #fff;
+  background-color: #88C0D0;
 }
 
 .rename-folder-popup .rename-folder-popup-item {
