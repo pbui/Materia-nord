@@ -1839,7 +1839,7 @@ StScrollBar StButton#hhandle:active {
 }
 .search-entry:focus {
   border-color: transparent;
-  box-shadow: inset 0 -2px #fff;
+  box-shadow: inset 0 -2px #88C0D0;
   padding: 0 8px;
   border: 0;
   color: #fff;
