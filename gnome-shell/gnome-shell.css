@@ -2262,10 +2262,10 @@ StScrollBar StButton#hhandle:active {
 }
 
 .workspace-thumbnail-indicator {
-  border: 0 solid #fff;
+  border: 0 solid #88C0D0;
   border-radius: 0;
   padding: 6px 10px;
-  border-left-width: 2px;
+  border-left-width: 3px;
 }
 
 .select-area-rubberband {
