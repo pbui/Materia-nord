@@ -3317,3 +3317,21 @@ StScrollBar StButton#hhandle:active {
 .popup-menu .search-entry:hover .search-entry-icon, .popup-menu .search-entry:focus .search-entry-icon {
   color: #2E3440;
 }
+
+/* Pop Shell */
+
+.pop-shell-search {
+  border: 3px #88C0D0;
+  border-radius: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  background-color: #ECEFF4;
+  color: #2E3440;
+}
+
+.cosmic-applications-dialog {
+  border: 3px #88C0D0;
+  border-radius: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  background-color: #ECEFF4;
+  color: #2E3440;
+}
