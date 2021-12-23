@@ -1600,6 +1600,10 @@ StScrollBar StButton#hhandle:active {
   color: inherit;
 }
 
+.workspace-animation {
+  background-color: rgba(46, 52, 64, 0.9);
+}
+
 /* OVERVIEW */
 #overview {
   spacing: 24px;
