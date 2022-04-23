@@ -306,25 +306,25 @@ StScrollBar StButton#hhandle:active {
   padding-left: 24px;
 }
 .popup-menu-item.selected {
-  background-color: rgba(46, 52, 64, 0.08);
+  background-color: rgba(46, 52, 64, 0.08) !important;
   transition-duration: 0ms;
 }
 .popup-menu-item.selected, .popup-menu-item.selected:active {
   color: #2E3440;
 }
 .popup-menu-item:active {
-  background-color: rgba(46, 52, 64, 0.12);
+  background-color: rgba(46, 52, 64, 0.12) !important;
   color: #2E3440;
   transition-duration: 200ms;
 }
 .popup-menu-item:checked {
   box-shadow: none;
-  background-color: rgba(136, 192, 208, 0.32);
+  background-color: rgba(136, 192, 208, 0.32) !important;
   font-weight: normal;
 }
 
 .popup-menu-item:checked.selected {
-  background-color: rgba(136, 192, 208, 0.3744);
+  background-color: rgba(136, 192, 208, 0.3744) !important;
 }
 .popup-menu-item:checked:active {
   background-color: rgba(136, 192, 208, 0.4016) !important;
