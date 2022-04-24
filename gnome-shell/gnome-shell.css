@@ -1595,6 +1595,20 @@ StScrollBar StButton#hhandle:active {
   background-size: 0;
 }
 
+.ws-switcher-indicator {
+  height: 24px;
+  width: 24px;
+  border: 4px #4C566A;
+  border-radius: 4px;
+  background-color: #D8DEE9;
+}
+
+.ws-switcher-indicator:active {
+  background-color: #ECEFF4;
+  border: 4px #88C0D0;
+  border-radius: 4px;
+}
+
 .ws-switcher-active-up,
 .ws-switcher-active-down,
 .ws-switcher-active-left,
