@@ -1459,7 +1459,7 @@ StScrollBar StButton#hhandle:active {
   min-height: 64px;
 }
 .osd-window StIcon {
-  icon-size: 96px;
+  icon-size: 48px;
 }
 .osd-window .osd-monitor-label {
   font-size: 48px;
