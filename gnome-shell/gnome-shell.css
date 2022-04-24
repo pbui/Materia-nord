@@ -1570,8 +1570,8 @@ StScrollBar StButton#hhandle:active {
   padding: 8px;
 }
 
-.workspace-switcher-container {
-  padding: 12px;
+.workspace-switcher {
+  padding: 8px;
   border: none;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
@@ -1579,6 +1579,7 @@ StScrollBar StButton#hhandle:active {
   color: #2E3440;
 }
 
+/*
 .workspace-switcher {
   background: transparent;
   border: 0;
@@ -1586,6 +1587,7 @@ StScrollBar StButton#hhandle:active {
   padding: 0;
   spacing: 8px;
 }
+*/
 
 .ws-switcher-box {
   height: 48px;
@@ -1597,16 +1599,20 @@ StScrollBar StButton#hhandle:active {
 
 .ws-switcher-indicator {
   height: 24px;
-  width: 24px;
-  border: 4px #4C566A;
+  width: 30px;
+  background-color: #3B4252;
+  border: 2px #4C566A;
   border-radius: 4px;
-  background-color: #D8DEE9;
+  margin: 0px;
 }
 
 .ws-switcher-indicator:active {
-  background-color: #ECEFF4;
-  border: 4px #88C0D0;
+  height: 24px;
+  width: 24px;
+  background-color: #88C0D0;
+  border: 2px #88C0D0;
   border-radius: 4px;
+  margin: 0px;
 }
 
 .ws-switcher-active-up,
